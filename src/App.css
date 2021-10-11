@@ -1,0 +1,27 @@
+.App {
+
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5em;
+  
+}
+.editor{
+  margin-right:10em;
+}
+
+.ck-editor__editable_inline{
+  min-height: 500px;
+}
+
+.App-header{
+  background-color: #282c34;
+  min-height:  10vh;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
